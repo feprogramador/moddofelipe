@@ -1,0 +1,12 @@
+name: esteira de placas
+type: StackConveyor
+requirements: [
+copper/10
+lead/5
+graphite/5
+]
+health: 120
+speed: 0.7
+itemCapacity: 32
+research: plastanium-conveyor
+category: distribution
