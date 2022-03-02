@@ -7,6 +7,6 @@ graphite/5
 ]
 health: 120
 speed: 0.7
-itemCapacity: 32
+itemCapacity: 40
 research: plastanium-conveyor
 category: distribution
