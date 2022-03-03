@@ -1,5 +1,6 @@
 name: esteira de placas
 type: StackConveyor
+recharge: 5
 requirements: [
 copper/10
 lead/7
@@ -7,13 +8,13 @@ graphite/7
 ]
 health: 150
 speed: 0.3
-itemCapacity: 25
+itemCapacity: 200
 loadEffect: {
   type: ParticleEffect
   line: true
-  lifetime: 30
-  length: 8
-  lenFrom: 2
+  lifetime: 60
+  length: 4
+  lenFrom: 6
   lenTo: 0
   strokeFrom: 0.5
   strokeTo: 0.5
