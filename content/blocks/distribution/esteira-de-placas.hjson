@@ -3,8 +3,8 @@ type: StackConveyor
 recharge: 15
 requirements: [
 copper/10
-lead/7
-graphite/7
+lead/12
+graphite/19
 ]
 health: 150
 speed: 0.3
