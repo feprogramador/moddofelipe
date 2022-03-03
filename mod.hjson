@@ -2,5 +2,5 @@ name: "f"
 displayName: "[green]meu mod"
 description: "saiu meu mod!!"
 author: felipe
-minGameVersion: 130
+minGameVersion: 105
 version: 0.0.2 alpha
