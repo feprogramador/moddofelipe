@@ -1,6 +1,6 @@
 name: esteira de placas
 type: StackConveyor
-recharge: 5
+recharge: 8
 requirements: [
 copper/10
 lead/7
@@ -13,11 +13,11 @@ loadEffect: {
   type: ParticleEffect
   line: true
   lifetime: 60
-  length: 4
+  length: 10
   lenFrom: 6
   lenTo: 0
   strokeFrom: 0.5
-  strokeTo: 0.5
+  strokeTo: 0
   colorTo: 7382f075
 }
 research: plastanium-conveyor
