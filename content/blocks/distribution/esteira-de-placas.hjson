@@ -7,6 +7,17 @@ graphite/7
 ]
 health: 150
 speed: 0.3
-itemCapacity: 50
+itemCapacity: 25
+loadEffect: {
+  type: ParticleEffect
+  line: true
+  lifetime: 30
+  length: 8
+  lenFrom: 2
+  lenTo: 0
+  strokeFrom: 0.5
+  strokeTo: 0.5
+  colorTo: 7382f075
+}
 research: plastanium-conveyor
 category: distribution
