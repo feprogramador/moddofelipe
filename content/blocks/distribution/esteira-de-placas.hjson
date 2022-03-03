@@ -1,6 +1,6 @@
 name: esteira de placas
 type: StackConveyor
-recharge: 8
+recharge: 15
 requirements: [
 copper/10
 lead/7
