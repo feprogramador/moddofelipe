@@ -1,8 +1,8 @@
 type: Drill
-size: 5
+size: 3
 tier: 5
-drillTime: 50
-liquidBoostIntensity: 3
+drillTime: 90
+liquidBoostIntensity: 2
 requirements: [
   copper/30
   lead/40
