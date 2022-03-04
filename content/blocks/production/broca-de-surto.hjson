@@ -19,6 +19,7 @@ requirements: [
           strokeFrom: 15
           strokeTo: 0
         }
+    ]
 category: production
 ambientSound: build
 ambientSoundVolume: 0.2
