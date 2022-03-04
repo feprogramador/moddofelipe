@@ -1,10 +1,9 @@
 type: Drill
-size: 2
-tier: 3
-drillTime: 400
-liquidBoostIntensity: 1.5
+size: 5
+tier: 5
+drillTime: 50
+liquidBoostIntensity: 3
 requirements: [
-  scrap/50
   copper/30
   lead/40
   graphite/4
