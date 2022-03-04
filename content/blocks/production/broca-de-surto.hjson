@@ -8,6 +8,17 @@ requirements: [
   lead/40
   graphite/4
 ]
+    effects: [
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 0
+          sizeTo: 45
+          colorFrom: ededed
+          colorTo: ededed50
+          strokeFrom: 15
+          strokeTo: 0
+        }
 category: production
 ambientSound: build
 ambientSoundVolume: 0.05
