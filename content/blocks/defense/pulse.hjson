@@ -1,0 +1,34 @@
+name: pulse
+description: dispara um pulso de energia
+type: PowerTurret
+
+health:1000
+
+reload: 30
+
+range:50
+
+size: 2
+
+rotatespeed:5
+
+coolandMultiplier: 5
+coolandefect: shoot
+
+powerUse: 50
+
+shootType: massDriverBolt
+collidesTiles: false
+lifetime: 300
+despawnEffect: smeltsmoke
+hitEffect: hitBulletBig
+drag: 0.000
+
+requirements: [
+  graphite/20
+  grafeno/10
+  silicon/12
+  titanium/7
+]
+category: defense
+research: titanium-wall
