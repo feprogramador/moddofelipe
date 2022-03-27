@@ -4,13 +4,13 @@
     "health": 140,
     "reloadTime": 75,
     "recoilAmount": 3,
-    "range": 80,
-    "maxAmmo": 12,
+    "range": 500,
+    "maxAmmo": 20,
     "inaccuracy": 9,
-    "shots": 5,
+    "shots": 90,
     "targetAir": false,
     "targetGround": true,
-    "shootCone": 0.09,
+    "shootCone": 0.4,
     "spread": 2,
     "restitution": 0.5,
     "rotateSpeed": 5,
@@ -18,11 +18,11 @@
     "xRand": 2,
     "ammoPerShot": 4,
     "ammoTypes": {
-        "lead": {
+        "grafeno": {
             "type": "BasicBulletType",
-            "damage": 6,
+            "damage": 10,
             "speed": 5,
-            "drag" : 0.05,
+            "drag" : 0.1,
             "lifetime": 27,
             "height": 12,
             "width": 7,
@@ -34,11 +34,11 @@
     },
     "requirements": [
         {
-            "item": "lead",
+            "item": "silicon",
             "amount": 55
         },
         {
-            "item": "copper",
+            "item": "grafeno",
             "amount": 25
         }
     ],
