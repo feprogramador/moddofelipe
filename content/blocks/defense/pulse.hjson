@@ -9,24 +9,27 @@ targetAir: true
 targetGround: true
 range: 150
 size: 3
-shootType: {
-  type: "LightningBulletType"
-  lightningColor: "blue"
-  lightningLength: 50
-  speed: 2
-  lifetime: 65
-  damage: 10
-  ammoMultiplier: 1
-  reloadMultiplier: 1
-}
+type: LightningBulletType
+lightningColor: blue
+lightningLength: 50
+speed: 2
+lifetime: 65
+damage: 10
+ammoMultiplier: 1
+ reloadMultiplier: 1
 cooldown: 3
-heatColor: "green"
-shootSound: "spark"
+
+heatColor: green
+
+shootSound: spark
+
 requirements: [
 	silicon/35
 	titanium/70
 	copper/10
   grafeno/10
+
 ]
-category: "turret"
-research: "arc"
+
+category: turret
+research: arc
