@@ -1,10 +1,10 @@
 type: SolarGenerator
-size: 2
-powerProduction: 0.5
+size: 1
+powerProduction: 50
 requirements: [
-  copper/20
-  lead/40
-  metaglass/20
+  silicon/200
+  titanium/100
+  plastanium/300
 ]
 category: power
-research: solar-panel
+research: large-solar-panel
