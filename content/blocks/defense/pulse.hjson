@@ -1,35 +1,31 @@
-type: PowerTurret
+type: DoubleTurret
+
 name: pulse
-description: atira pulsos de energia
-health: 1500
-reloadTime: 60
-rotateSpeed: 12
-powerUse: 41
-targetAir: true
-targetGround: true
-range: 150
-size: 3
-type: arc
-lightningColor: blue
-lightningLength: 50
-speed: 2
-lifetime: 65
-damage: 10
-ammoMultiplier: 1
- reloadMultiplier: 1
-cooldown: 3
+description: atira pedaços de grafeno altamente carregados
 
-heatColor: green
-
-shootSound: spark
-
+health: 400
+size: 2
+reload: 1
+range: 200
+ammoUseEffect: shellEjectSmall
+inaccuracy: 30
+rotatespeed: 2
+ammo {
+  grafeno: {
+    speed: 20
+    damage: 40
+    bulletWidth: 20
+    bulletHeight: 2
+    shootEffect: shootSmall
+    smokeEffwct: shootSmallSmoke
+    ammoMultiplier: 30
+  }
+}
 requirements: [
-	silicon/35
-	titanium/70
-	copper/10
-  grafeno/10
-
+  grafeno/20
+  grafite/50
+  lead/30
+  silicon/30
 ]
-
 category: turret
-research: arc
+research: duo
