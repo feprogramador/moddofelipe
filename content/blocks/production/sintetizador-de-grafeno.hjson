@@ -1,4 +1,4 @@
-name: sintetizador de grafeno
+name: sintetizador de grafeno impuro
 description: conbimbina grafite, petroleo e silicio para criar uma liga altamente condutiva e resistente.
 type: GenericSmelter
 liquidCapacity: 100
@@ -9,7 +9,7 @@ hasItems: true
 craftTime: 120
 updateEffect:smeltsmoke
 consumes:{
-  power: 5
+  power: 10
   items: {
     items: [
     graphite/10
@@ -34,4 +34,4 @@ category: crafting
 research: titanium-wall
 idleSound:respawning
 idleSoundVolume: 0.8
-outputitem:grafeno/1
+outputItem:grafeno/1
