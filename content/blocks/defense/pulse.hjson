@@ -17,12 +17,17 @@ coolandefect: shoot
 
 powerUse: 50
 
-shootType: massDriverBolt
+shootType: artilleryBulletType
+
+hitShake: 1
+collides: true
+collidesAir: true
+bulletSprite: shell
 collidesTiles: false
 lifetime: 300
 despawnEffect: smeltsmoke
 hitEffect: hitBulletBig
-drag: 0.000
+
 
 requirements: [
   graphite/20
