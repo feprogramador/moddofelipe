@@ -9,7 +9,7 @@ targetAir: true
 targetGround: true
 range: 150
 size: 3
-type: LightningBulletType
+type: arc
 lightningColor: blue
 lightningLength: 50
 speed: 2
