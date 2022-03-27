@@ -23,7 +23,7 @@ ammo: {
 }
 requirements: [
   grafeno/20
-  grafite/50
+  graphite/50
   lead/30
   silicon/30
 ]
