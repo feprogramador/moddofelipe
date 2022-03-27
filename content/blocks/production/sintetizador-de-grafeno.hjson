@@ -1,0 +1,37 @@
+name: sintetizador de grafeno
+description: conbimbina grafite, petroleo e silicio para criar uma liga altamente condutiva e resistente.
+type: GenericSmelter
+liquidCapacity: 100
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+updateEffect:smeltsmoke
+consumes:{
+  power: 5
+  items: {
+    items: [
+    graphite/10
+    silicon/3
+    ]
+  }
+  liquid: {
+    liquid: petroleum
+    amount: 5
+  }
+  
+
+}
+requirements: [
+  graphite/20
+  silicon/100
+  copper/120
+  lead/30
+  metaglass/20
+]
+category: crafting
+research: titanium-wall
+idleSound:respawning
+idleSoundVolume: 0.8
+outputitem:grafeno/1
