@@ -1,10 +1,11 @@
-type: SolarGenerator
+name: parede de grafeno
+description: parede feita de uma liga baseda em grafite
+type: wall
+health:2500
 size: 2
-powerProduction: 0.5
 requirements: [
-  copper/20
-  lead/40
-  metaglass/20
+  graphite/20
+  grafeno/1
 ]
-category: power
-research: solar-panel
+category: defense
+research: titanium-wall
