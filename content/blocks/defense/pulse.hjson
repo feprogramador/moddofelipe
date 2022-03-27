@@ -1,39 +1,32 @@
-name: pulse
-description: dispara um pulso de energia
 type: PowerTurret
-
-health:1000
-
-reload: 30
-
-range:50
-
-size: 2
-
-rotatespeed:5
-
-coolandMultiplier: 5
-coolandefect: shoot
-
-powerUse: 50
-
-shootType: artilleryBulletType
-
-hitShake: 1
-collides: true
-collidesAir: true
-bulletSprite: shell
-collidesTiles: false
-lifetime: 300
-despawnEffect: smeltsmoke
-hitEffect: hitBulletBig
-
-
+name: pulse
+description: atira pulsos de energia
+health: 1500
+reloadTime: 60
+rotateSpeed: 12
+powerUse: 41
+targetAir: true
+targetGround: true
+range: 150
+size: 3
+shootType: {
+  type: "LightningBulletType"
+  lightningColor: "blue"
+  lightningLength: 50
+  speed: 2
+  lifetime: 65
+  damage: 10
+  ammoMultiplier: 1
+  reloadMultiplier: 1
+}
+cooldown: 3
+heatColor: "green"
+shootSound: "spark"
 requirements: [
-  graphite/20
+	silicon/35
+	titanium/70
+	copper/10
   grafeno/10
-  silicon/12
-  titanium/7
 ]
-category: defense
-research: titanium-wall
+category: "turret"
+research: "arc"
