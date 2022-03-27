@@ -1,31 +1,47 @@
-type: DoubleTurret
-
-name: pulse
-description: atira pedaços de grafeno altamente carregados
-
-health: 400
-size: 2
-reload: 1
-range: 200
-ammoUseEffect: shellEjectSmall
-inaccuracy: 30
-rotatespeed: 2
-ammo: {
-  grafeno: {
-    speed: 20
-    damage: 40
-    bulletWidth: 20
-    bulletHeight: 2
-    shootEffect: shootSmall
-    smokeEffwct: shootSmallSmoke
-    ammoMultiplier: 30
-  }
+{
+    "type": "ItemTurret",
+    "size": 1,
+    "health": 140,
+    "reloadTime": 75,
+    "recoilAmount": 3,
+    "range": 80,
+    "maxAmmo": 12,
+    "inaccuracy": 9,
+    "shots": 5,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 0.09,
+    "spread": 2,
+    "restitution": 0.5,
+    "rotateSpeed": 5,
+    "shootSound": "shotgun",
+    "xRand": 2,
+    "ammoPerShot": 4,
+    "ammoTypes": {
+        "lead": {
+            "type": "BasicBulletType",
+            "damage": 6,
+            "speed": 5,
+            "drag" : 0.05,
+            "lifetime": 27,
+            "height": 12,
+            "width": 7,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "producesmoke",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 55
+        },
+        {
+            "item": "copper",
+            "amount": 25
+        }
+    ],
+    "category": "turret",
+    "research": "t1_duo"
 }
-requirements: [
-  grafeno/20
-  graphite/50
-  lead/30
-  silicon/30
-]
-category: turret
-research: duo

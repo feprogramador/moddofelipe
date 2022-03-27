@@ -1,0 +1,31 @@
+type: DoubleTurret
+
+name: pulse
+description: atira pedaços de grafeno altamente carregados
+
+health: 400
+size: 2
+reload: 1
+range: 200
+ammoUseEffect: shellEjectSmall
+inaccuracy: 30
+rotatespeed: 2
+ammo: {
+  grafeno: {
+    speed: 20
+    damage: 40
+    bulletWidth: 20
+    bulletHeight: 2
+    shootEffect: shootSmall
+    smokeEffwct: shootSmallSmoke
+    ammoMultiplier: 30
+  }
+}
+requirements: [
+  grafeno/20
+  graphite/50
+  lead/30
+  silicon/30
+]
+category: turret
+research: duo
