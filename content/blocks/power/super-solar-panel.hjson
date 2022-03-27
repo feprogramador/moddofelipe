@@ -1,0 +1,10 @@
+type: SolarGenerator
+size: 2
+powerProduction: 0.5
+requirements: [
+  copper/20
+  lead/40
+  metaglass/20
+]
+category: power
+research: solar-panel
