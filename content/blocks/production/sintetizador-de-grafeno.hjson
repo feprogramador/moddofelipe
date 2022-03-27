@@ -17,7 +17,7 @@ consumes:{
     ]
   }
   liquid: {
-    liquid: petroleum
+    liquid: oil
     amount: 5
   }
   
