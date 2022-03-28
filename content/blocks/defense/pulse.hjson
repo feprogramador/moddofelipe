@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "size": 1,
+    "size": 3,
     "health": 140,
     "reloadTime": 75,
     "recoilAmount": 3,
