@@ -1,0 +1,39 @@
+name: purificador de grafeno plasmatico
+description: usa quantidades massivas de recursos para produzir um plasma de grafite que funde grafeno em grafeno puro
+type: GenericSmelter
+liquidCapacity: 1000
+size: 10
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 500
+updateEffect:smeltsmoke
+consumes:{
+  power: 50
+  items: {
+    items: [
+    graphite/100
+    grafeno/5
+    silicon/20
+    ]
+  }
+  liquid: {
+    liquid: oil
+    amount: 20
+  }
+  
+
+}
+requirements: [
+  graphite/1000
+  grafeno/400
+  silicon/1500
+  copper/3000
+  lead/2500
+  metaglass/500
+]
+category: crafting
+research: titanium-wall
+idleSound:respawning
+idleSoundVolume: 0.8
+outputItem:grafeno-puro/1
