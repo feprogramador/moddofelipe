@@ -2,6 +2,7 @@ name: purificador de grafeno plasmatico
 description: usa quantidades massivas de recursos para produzir um plasma de grafite que funde grafeno em grafeno puro
 type: GenericSmelter
 liquidCapacity: 1000
+itemCapacity: 500
 size: 10
 hasPower: true
 hasLiquids: true
