@@ -11,7 +11,7 @@ consumes:{
   power: 50
   items: {
     items: [
-      baterias/1
+      bateria/1
     ]
   }
 }
