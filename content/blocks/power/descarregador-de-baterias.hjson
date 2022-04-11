@@ -19,7 +19,6 @@ requirements: [
 ]
 
 category: power
-research: carregador-de-baterias
-powerProduction: 5
 idleSound:respawning
 idleSoundVolume: 0.8
+powerProduction: 5
