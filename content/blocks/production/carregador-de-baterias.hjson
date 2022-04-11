@@ -17,9 +17,8 @@ consumes:{
         liquid: oil
     amount: 0
   }
-  
-
 }
+
 requirements: [
   grafeno/30
   silicon/1500
