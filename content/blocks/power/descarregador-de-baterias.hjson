@@ -8,12 +8,9 @@ itemCapacity: 10
 size: 2
 craftTime: 5
 consumes:{
-  power: 50
-  items: {
     items: [
       bateria/1
-    ]
-  }
+  ]
 }
 requirements: [
   grafeno/1
