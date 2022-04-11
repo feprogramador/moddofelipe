@@ -1,0 +1,28 @@
+name: descarregador de baterias
+description: extrai a energia eletrica das baterias
+type: CombustionGenerator
+hasPower: false
+hasItems: true
+hasLiquids: false
+itemCapacity: 10
+size: 2
+craftTime: 5
+consumes:{
+  power: 50
+  items: {
+    items: [
+      baterias/1
+    ]
+  }
+}
+requirements: [
+  grafeno/1
+  titanium/30
+  copper/30
+]
+
+category: power
+research: carregador-de-baterias
+powerProduction: 5
+idleSound:respawning
+idleSoundVolume: 0.8
