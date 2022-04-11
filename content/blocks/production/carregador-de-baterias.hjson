@@ -10,6 +10,9 @@ craftTime: 5
 updateEffect:smeltsmoke
 consumes:{
   power: 5
+    items: {
+    items: [
+    ]
 }
 
 requirements: [
@@ -22,4 +25,4 @@ category: crafting
 research: titanium-wall
 idleSound:respawning
 idleSoundVolume: 0.8
-outputItem:grafeno/1
+outputItem:bateria/1
