@@ -1,25 +1,30 @@
 name: carregador de baterias
-description: produz uma bateria puramente energetica
+description: ...
 type: GenericSmelter
-size: 4
+itemCapacity: 500
+size: 5
 hasPower: true
 hasLiquids: false
 hasItems: false
-craftTime: 5
+craftTime: 500
 updateEffect:smeltsmoke
 consumes:{
-  power: 5
-    items: {
-    items: [
-    ]
-}
+  power: 50
+  items: {
+  }
+  liquid: {
+  }
+  
 
+}
 requirements: [
-  grafeno/20
-  silicon/100
-  copper/120
-  lead/30
+  grafeno/30
+  silicon/1500
+  copper/3000
+  lead/50
 ]
 category: crafting
 research: titanium-wall
+idleSound:respawning
+idleSoundVolume: 0.8
 outputItem:bateria/1
