@@ -11,8 +11,11 @@ updateEffect:smeltsmoke
 consumes:{
   power: 50
   items: {
+    graphite/0
   }
   liquid: {
+        liquid: oil
+    amount: 0
   }
   
 
