@@ -3,7 +3,7 @@ description: produz uma bateria puramente energetica
 type: GenericSmelter
 liquidCapacity: 100
 size: 4
-hasPower: true
+hasPower: truex
 hasLiquids: false
 hasItems: false
 craftTime: 5

@@ -8,7 +8,7 @@ itemCapacity: 10
 size: 2
 craftTime: 5
 consumes:{
-  power: 50
+  power: 0
   items: {
     items: [
       bateria/1
@@ -26,3 +26,4 @@ research: carregador-de-baterias
 powerProduction: 5
 idleSound:respawning
 idleSoundVolume: 0.8
+outputPower: 5
