@@ -7,6 +7,7 @@ requirements: [
   copper/30
   lead/40
   graphite/4
+  grafeno/1
 ]
     effects: [
         {
