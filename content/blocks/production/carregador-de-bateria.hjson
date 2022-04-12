@@ -9,6 +9,10 @@ hasItems: false
 craftTime: 5
 updateEffect:smeltsmoke
 
+consumes:{
+  power: 50
+}
+
 requirements: [
   grafeno/20
   silicon/100
