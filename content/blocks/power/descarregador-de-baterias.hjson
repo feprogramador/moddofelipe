@@ -1,6 +1,6 @@
 name: descarregador de baterias
 description: extrai a energia eletrica das baterias
-type: CombustionGenerator
+type: GenericSmelter
 hasPower: false
 hasItems: true
 hasLiquids: false

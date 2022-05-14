@@ -1,5 +1,6 @@
+name: bateria
 hardness: 7
 cost: 4
-explosiveness: 10
+explosiveness: 20
 color: af8b5a
 research: titanium
