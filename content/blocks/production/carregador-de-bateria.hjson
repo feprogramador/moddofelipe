@@ -1,5 +1,5 @@
 name: carregador de baterias
-description: produz uma bateria puramente energetica
+description: produz uma bateria energetica baseada em silicio
 type: GenericSmelter
 liquidCapacity: 100
 size: 4
@@ -11,6 +11,11 @@ updateEffect:smeltsmoke
 
 consumes:{
   power: 50
+  items: {
+    items: [
+    silicon/20
+    ]
+  }
 }
 
 requirements: [
