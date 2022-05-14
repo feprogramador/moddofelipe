@@ -13,7 +13,7 @@ consumes:{
   power: 50
   items: {
     items: [
-    silicon/20
+    silicon/2
     ]
   }
 }
