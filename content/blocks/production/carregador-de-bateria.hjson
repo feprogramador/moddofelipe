@@ -5,7 +5,7 @@ liquidCapacity: 100
 size: 4
 hasPower: true
 hasLiquids: false
-hasItems: false
+hasItems: true
 craftTime: 5
 updateEffect:smeltsmoke
 
