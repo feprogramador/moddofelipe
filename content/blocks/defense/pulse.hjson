@@ -14,7 +14,7 @@
     "spread": 2,
     "restitution": 0.5,
     "rotateSpeed": 0,
-    "shootSound": "shotgun",
+    "shootSound": "pulse",
     "xRand": 1,
     "ammoPerShot": 0.1,
     "ammoTypes": {
