@@ -1,10 +1,10 @@
 type: SolarGenerator
 size: 1
-powerProduction: 50
+powerProduction: 120
 requirements: [
   silicon/200
   titanium/100
   plastanium/300
 ]
 category: power
-research: large-solar-panel
+

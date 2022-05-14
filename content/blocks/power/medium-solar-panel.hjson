@@ -1,6 +1,6 @@
 type: SolarGenerator
 size: 2
-powerProduction: 0.5
+powerProduction: 2
 requirements: [
   copper/20
   lead/40
