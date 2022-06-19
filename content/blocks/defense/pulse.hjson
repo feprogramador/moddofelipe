@@ -16,7 +16,7 @@
     "rotateSpeed": 0,
     "shootSound": "pulse",
     "xRand": 1,
-    "ammoPerShot": 0.1,
+    "ammoPerShot": 1,
     "ammoTypes": {
         "grafeno": {
             "type": "BasicBulletType",
