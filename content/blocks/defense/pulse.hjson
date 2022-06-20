@@ -2,54 +2,54 @@
    "name": "pulse",
    "description": "lança pulsos de energia leves a velocidades extremas",
     "type": "PowerTurret",
-    "size": 2,
-    "health": 180,
+    "size": 3,
+    "health": 300,
     "reloadTime": 1,
     "range": 160,
     "inaccuracy": 10,
-    "shots": 20,
+    "shots": 30,
     "targetAir": true,
     "targetGround": true,
     "shootCone": 2,
     "spread": 2,
-    "recoilAmount": 0,
-    "restitution": 0,
+    "recoilAmount": 3,
+    "restitution": 0.02,
     "rotateSpeed": 3,
     "shootSound": "lasershoot",
-    "powerUse": 10,
+    "powerUse": 5,
     "xRand": 4,
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
         "speed": 3,
         "lifetime": 80,
-        "homingPower": 1.00,
+        "homingPower": 0.05,
         "status": "shocked",
-        "damage": 7,
-        "height": 20,
-        "width": 8,
+        "damage": 3,
+        "height": 4,
+        "width": 4,
         "hitEffect": "hitLaser",
         "despawnEffect": "hitLaser",
         "pierce": false,
-        "frontColor": "006400",
-        "backColor": "FFFF00"
+        "frontColor": "97ce00",
+        "backColor": "97ce00"
     },
     "requirements": [
         {
-            "item": "copper",
+            "item": "grafeno",
             "amount": 70
         },
         {
             "item": "lead",
-            "amount": 60
+            "amount": 80
         },
         {
             "item": "graphite",
-            "amount": 40
+            "amount": 150
         },
         {
             "item": "silicon",
-            "amount": 40
+            "amount": 200
         }
     ],
     "category": "turret",
