@@ -10,7 +10,7 @@
     "shots": 20,
     "targetAir": true,
     "targetGround": true,
-    "shootCone": 4,
+    "shootCone": 2,
     "spread": 4,
     "recoilAmount": 1.5,
     "restitution": 0.04,
